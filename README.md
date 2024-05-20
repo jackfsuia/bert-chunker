@@ -3,7 +3,7 @@
 
 Code for generating dataset and training of BertChunker, a semantic chunker for RAG. 
 
-## Generating dataset
+## Generate dataset
 See [generate_dataset.ipynb](generate_dataset.ipynb)
 ## Train from the base model all-MiniLM-L6-v2
 Run
