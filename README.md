@@ -1,4 +1,4 @@
-# BertChunker: Efficient and Trained Chunking for Retrieval Augmented Generation
+# BertChunker: Efficient and Trained Chunking for Unstructured documents
 [Model](https://huggingface.co/tim1900/BertChunker) | [Paper](https://github.com/jackfsuia/BertChunker/blob/main/main.pdf)
 
 Code for generating dataset and training of BertChunker, a semantic chunker for RAG. 
@@ -18,7 +18,7 @@ If this work is helpful, please kindly cite as:
 
 ```bibtex
 @article{BertChunker,
-  title={BertChunker: Efficient and Trained Chunking for Retrieval Augmented Generation}, 
+  title={BertChunker: Efficient and Trained Chunking for Unstructured documents}, 
   author={Yannan Luo},
   year={2024},
   url={https://github.com/jackfsuia/BertChunker}
