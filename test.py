@@ -34,10 +34,19 @@ text="In the heart of the bustling city, where towering skyscrapers touch the cl
     With each passing light year, the anticipation of unraveling secrets that could alter humanity's\
      understanding of life in the universe grew ever stronger."
 
-# chunk the text. The lower threshold is, the more chunks will be generated.
+# chunk the text. The lower threshold is, the more chunks will be generated. Can be negative or positive.
 chunks=model.chunk_text(text, tokenizer, threshold=0)
 
 # print chunks
 for i, c in enumerate(chunks):
-    print(f'------------------')
+    print(f'-----chunk: {i}------------')
+    print(c)
+
+print('----->Here is the result of fast chunk method<------:')
+# chunk the text faster with a fixed context window, batchsize is the number of windows run per batch.
+chunks=model.chunk_text_fast(text, tokenizer, batchsize=20, threshold=0)
+
+# print chunks
+for i, c in enumerate(chunks):
+    print(f'-----chunk: {i}------------')
     print(c)
