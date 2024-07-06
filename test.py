@@ -22,7 +22,7 @@ device='cuda'
 model.to(device)
 
 # load parameters from your train result, or downloaded from https://huggingface.co/tim1900/BertChunker
-state_dict = safetensors.torch.load_file("outputModels/checkpoint-3750/model.safetensors")
+state_dict = safetensors.torch.load_file("model.safetensors")
 model.load_state_dict(state_dict)
 
 # text to be chunked
