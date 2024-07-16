@@ -1,7 +1,7 @@
 # BertChunker: Efficient and Trained Chunking for Unstructured Documents
 [Model](https://huggingface.co/tim1900/BertChunker) | [Paper](https://github.com/jackfsuia/BertChunker/blob/main/main.pdf)
 
-Code for generating dataset and training of BertChunker, a semantic chunker for unstructured documents. 
+BertChunker is a text chunker based on BERT with a classifier head to predict the start token of chunks (for use in RAG, etc). This repo includes codes for model defining, generating dataset, training and testing.
 
 ## Generate dataset
 See [generate_dataset.ipynb](generate_dataset.ipynb)
