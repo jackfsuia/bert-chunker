@@ -28,7 +28,7 @@ done
 # echo "The value of my_variable is: $GPUS_PER_NODE and $NNODES"
 # torchrun $DISTRIBUTED_ARGS finetune_new.py \
 python train_chunk_model.py \
-  --base_model_name_or_path "sentence-transformers/all-MiniLM-L6-v2" \
+  --base_model_name_or_path "nreimers/MiniLM-L6-H384-uncased" \
   --data_path "mixed_passenge_train_30000.json" \
   --eval_data_path "mixed_passenge_eval_30000.json" \
   --output_dir "outputModels" \
