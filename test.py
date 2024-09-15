@@ -4,7 +4,7 @@ from modeling_bertchunker import BertChunker
 
 # load bert tokenizer
 tokenizer = AutoTokenizer.from_pretrained(
-    "sentence-transformers/all-MiniLM-L6-v2",
+    "tim1900/BertChunker",
     padding_side="right",
     model_max_length=255,
     trust_remote_code=True,
@@ -12,7 +12,7 @@ tokenizer = AutoTokenizer.from_pretrained(
 
 # load MiniLM-L6-H384-uncased bert config
 config = AutoConfig.from_pretrained(
-    "sentence-transformers/all-MiniLM-L6-v2",
+    "tim1900/BertChunker",
     trust_remote_code=True,
 )
 
@@ -21,7 +21,7 @@ model = BertChunker(config)
 device='cuda'
 model.to(device)
 
-# load parameters from your train result, or downloaded from https://huggingface.co/tim1900/BertChunker
+# load parameters from your train result, or downloaded from https://huggingface.co/tim1900/BertChunker/model.safetensors
 state_dict = safetensors.torch.load_file("model.safetensors")
 model.load_state_dict(state_dict)
 
