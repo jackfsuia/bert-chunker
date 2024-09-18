@@ -1,7 +1,7 @@
-# BertChunker: Efficient and Trained Chunking for Unstructured Documents
+# bert-chunker: Efficient and Trained Chunking for Unstructured Documents
 [Model](https://huggingface.co/tim1900/BertChunker) | [Paper](https://github.com/jackfsuia/BertChunker/blob/main/main.pdf)
 
-BertChunker is a text chunker based on BERT with a classifier head to predict the start token of chunks (for use in RAG, etc). It is finetuned based on [nreimers/MiniLM-L6-H384-uncased](https://huggingface.co/nreimers/MiniLM-L6-H384-uncased), and the whole training lasted for 10 minutes on a Nvidia P40 GPU on a 50 MB synthetized dataset. This repo includes codes for model defining, generating dataset, training and testing.
+BertChunker is a text chunker based on BERT with a classifier head to predict the start token of chunks (for use in RAG, etc), and with a sliding window it cut documents of any size into chunks. It is finetuned based on [nreimers/MiniLM-L6-H384-uncased](https://huggingface.co/nreimers/MiniLM-L6-H384-uncased), and the whole training lasted for 10 minutes on a Nvidia P40 GPU on a 50 MB synthetized dataset. This repo includes codes for model defining, generating dataset, training and testing.
 
 ## Generate dataset
 See [generate_dataset.ipynb](generate_dataset.ipynb)
