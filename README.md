@@ -1,7 +1,7 @@
 # bert-chunker: efficient and trained chunking for unstructured documents
 [Download](https://huggingface.co/tim1900/bert-chunker-3)
 ---
-[bert-chunker-3](https://huggingface.co/tim1900/bert-chunker-3) is a small and fast text chunker based on BERT with a classifier head to predict the start token of chunks (for use in RAG, etc), and using a sliding window it cuts documents of any size into chunks. Its training data are labeled by a LLM, different from [bert-chunker-2](https://huggingface.co/tim1900/bert-chunker-2) and [bert-chunker](https://huggingface.co/tim1900/bert-chunker).
+[bert-chunker-3](https://huggingface.co/tim1900/bert-chunker-3) is a small and fast text chunker based on BertForTokenClassification to predict the start token of chunks (for use in RAG, etc), and using a sliding window it cuts documents of any size into chunks. Its training data are labeled by a LLM, different from [bert-chunker-2](https://huggingface.co/tim1900/bert-chunker-2) and [bert-chunker](https://huggingface.co/tim1900/bert-chunker).
 
 ## Usage
 Run the following:
