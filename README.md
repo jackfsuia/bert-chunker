@@ -4,6 +4,7 @@
 Different from [bert-chunker-2](https://huggingface.co/tim1900/bert-chunker-2) and [bert-chunker](https://huggingface.co/tim1900/bert-chunker), to overcome the data distribution shift, our training data were labeled by a LLM and trainng pipeline was improved, therefore it is **more stable**.
 ## Updates
 2025.2.23: [bert-chunker-Chinese-2](https://huggingface.co/tim1900/bert-chunker-Chinese-2).
+2025.2.09：[bert-chunker-3](https://huggingface.co/tim1900/bert-chunker-3)
 ## Usage
 Run the following:
 
