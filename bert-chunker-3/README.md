@@ -4,4 +4,7 @@
 1. **uses a LLM to label training data**. This is to alleviate the data distribution shift where the synthetized chunk data is totally different from real data distribution, and as observed in bert-chunker-2 and bert-chunker, this can cause unnatural chunking decision sometimes. 
 2. **uses a slide window data generating and deterministic batch sampler for training**. This is to make sure the training aligns well with the inference.
 
+### To do:
+1. create more messy text (the ones without period or so) for the train dataset, so unstructured text will be better handled.
+
 All the code will be released here...
