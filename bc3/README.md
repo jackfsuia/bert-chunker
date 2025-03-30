@@ -6,3 +6,7 @@
 
 # Usage
 API_labeling_data_pipeline -> process_dataset -> train -> convert_to_hf_safetensors -> test
+
+# to do
+1. Create more noisy data by randomly removing "." of sentences.
+2. Add the "max_token" button to it.
