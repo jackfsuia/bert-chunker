@@ -9,4 +9,4 @@ API_labeling_data_pipeline -> process_dataset -> train -> convert_to_hf_safetens
 
 # to do
 1. Create more noisy data by randomly removing "." of sentences.
-2. Add a "max_token_of_chunks" button to it.
+2. Add a "max_token_of_chunks" button to it. (Done, at [here](https://huggingface.co/tim1900/bert-chunker-3#experemental))
