@@ -12,6 +12,7 @@ API_labeling_data_pipeline -> process_dataset -> train -> convert_to_hf_safetens
 2. Add a "max_token_of_chunks" button to it. (Done, at [here](https://huggingface.co/tim1900/bert-chunker-3#experemental))
 3. more data
 4. edgcut
-5. evaluation frame work
-6. fix bugs
+5. bidirection
+6. evaluation frame work
+7. fix bugs
    
