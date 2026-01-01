@@ -10,4 +10,3 @@ process_dataset.ipynb -> train -> convert_to_hf_safetensors -> test
 
 # to do
 1. more data
-2. multi-lingual?
