@@ -2,7 +2,7 @@
 [bert-chunker-3.5](https://huggingface.co/tim1900/bert-chunker-3.5) is a text chunker based on BertForTokenClassification to predict the start token of chunks (for use in RAG, etc), and using a sliding window it cuts documents of any size into chunks. We see it as an alternative of [semantic chunker](https://github.com/FullStackRetrieval-com/RetrievalTutorials/blob/main/tutorials/LevelsOfTextSplitting/5_Levels_Of_Text_Splitting.ipynb), specially, it not only works for the structured texts, but also the **unstructured and messy texts**.
 
 ## Updates
-- 2026.1.1: [bert-chunker-3.5]([bert-chunker-Chinese-2](https://huggingface.co/tim1900/bert-chunker-3.5).) is released.
+- 2026.1.1: [bert-chunker-3.5](https://huggingface.co/tim1900/bert-chunker-3.5) is released.
 - 2025.5.12: an experimental script that supports specifying the maximum tokens per chunk is available now at [here](https://huggingface.co/tim1900/bert-chunker-3#experemental).
 - 2025.2.23: [bert-chunker-Chinese-2](https://huggingface.co/tim1900/bert-chunker-Chinese-2).
 - 2025.2.09：[bert-chunker-3](https://huggingface.co/tim1900/bert-chunker-3).
